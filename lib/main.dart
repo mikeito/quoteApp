@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.orange,
         brightness: Brightness.light,
       ),
-      home: Scaffold(
-        backgroundColor: Colors.white,
-        body: SafeArea(
-          child: Quotes()
+      home: SafeArea(
+        child: Scaffold(
+          backgroundColor: Colors.white,
+          body: Quotes()
         ),
       ),
     );
